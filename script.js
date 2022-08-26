@@ -2,6 +2,8 @@ const caixa = document.querySelector(".caixa")
 const caixa2 = document.querySelector(".caixa2")
 const cadastrar = document.querySelector(".cadastrar-agora")
 const entrar = document.querySelector(".entre-agora")
+const rodape = document.querySelector(".dev")
+
 
 cadastrar.addEventListener("click", function(){
 
@@ -11,6 +13,10 @@ cadastrar.addEventListener("click", function(){
         caixa2.style.display = "none"
     }
 
+})
+
+cadastrar.addEventListener("click", ( )=>{
+    container.classList.add("active"); 
 })
 
 entrar.addEventListener("click", function(){
@@ -23,3 +29,4 @@ entrar.addEventListener("click", function(){
     }
 
 })
+

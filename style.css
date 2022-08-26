@@ -29,9 +29,7 @@ header {
     font-weight: 600;
 }
 
-main {
-    text-align: center;
-}
+
 /* caixa de login */
 .caixa {
     width: 265px;
@@ -63,6 +61,7 @@ main {
     transform: translate(-50%, -62%);
 }
 
+
 input {
     font-family: 'Poppins', sans-serif;
     width: 100%; 
@@ -80,8 +79,12 @@ input:focus {
     transition-duration: 0.5s ease;
 }
 
-.Login, .Senha, .Data, .Nome {
+.Login, .Senha, .Data {
     margin-top: 30px;
+}
+
+.Nome {
+    margin-top: 5px;
 }
 
 div > a {
@@ -145,7 +148,8 @@ button.botaocadastrar {
 
 
 footer {
-    margin-top: 450px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.68);
     text-align: center;
     color: white;
 }
