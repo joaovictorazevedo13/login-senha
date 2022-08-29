@@ -15,9 +15,6 @@ cadastrar.addEventListener("click", function(){
 
 })
 
-cadastrar.addEventListener("click", ( )=>{
-    container.classList.add("active"); 
-})
 
 entrar.addEventListener("click", function(){
 
